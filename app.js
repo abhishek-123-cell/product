@@ -41,7 +41,7 @@ app.use("/api", authRoutes);
 app.use("/api", categoryRoutes);
 app.use("/api", productRoutes);
 
-const port = 8001;
+const port = 8000;
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
